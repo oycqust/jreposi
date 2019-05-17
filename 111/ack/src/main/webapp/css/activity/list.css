@@ -1,0 +1,7 @@
+@charset "utf-8";
+.form-group label{text-align: -webkit-right;display: inline-block;width: 100px;}
+#addForm .form-control{display: inline-block;width: 160px;}
+#addForm .form-group{display: inline-block}
+.search-container{display: inline-block;width: 160px;}
+.form-group{display: inline-block;}
+#search-div{margin-top:10px;background:#f5f5f5;}
