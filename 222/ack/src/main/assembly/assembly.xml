@@ -1,0 +1,51 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+    <id>1.0</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/config</directory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <outputDirectory>./config</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>${project.build.directory}</directory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <outputDirectory>./lib</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>${project.build.directory}/lib</directory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <outputDirectory>./lib</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/bin</directory>
+            <includes>
+                <include>*.sh</include>
+                <include>*.py</include>
+            </includes>
+            <fileMode>0744</fileMode>
+            <outputDirectory>./bin</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/</directory>
+            <includes>
+                <include>version.cfg</include>
+            </includes>
+            <outputDirectory>./</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
