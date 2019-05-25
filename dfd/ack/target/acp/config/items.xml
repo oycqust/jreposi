@@ -1,0 +1,43 @@
+<Items>
+    <Item>
+        <Id>001</Id><!--积分项唯一标识,不准修改-->
+        <Valid>true</Valid><!--true or false-->
+        <Optags>0521</Optags><!--运营标签,多个用逗号分隔-->
+        <Sysid>m,t</Sysid><!--m表示移动 t表示电信 u表示联调, 多个用逗号分隔-->
+        <MinViewMinutes>30</MinViewMinutes><!--超过30分钟即可积分-->
+        <Description>世界杯活动</Description>
+    </Item>
+    <Item>
+        <Id>002</Id>
+        <Valid>false</Valid>
+        <MediaCodeFile>/opt/spark/acp/config/mediacode.txt</MediaCodeFile>
+        <!--本地测试-->
+<!--
+        <MediaCodeFile>D:\Program Files\acp\trunck\acp\src\main\config\mediacode.txt</MediaCodeFile>&lt;!&ndash;mediacode文件的存放地&ndash;&gt;
+-->
+        <MinViewMinutes>60</MinViewMinutes><!--超过60分钟即可积分-->
+        <Description>英雄卡</Description>
+    </Item>
+    <Item>
+        <Id>003</Id>
+        <Valid>false</Valid>
+        <MediaCodeFile>/opt/spark/acp/config/mediacode-summer.txt</MediaCodeFile>
+        <!--本地测试-->
+<!--
+        <MediaCodeFile>D:\Program Files\acp\trunck\acp\src\main\config\mediacode-summer.txt</MediaCodeFile>
+-->
+        <MinViewMinutes>30</MinViewMinutes><!--超过30分钟即可积分-->
+        <MaxCoresPerDay>4</MaxCoresPerDay><!--每天最多4个积分-->
+        <Description>暑期追剧活动</Description>
+    </Item>
+    <Item>
+        <Id>004</Id><!--积分项唯一标识,不准修改-->
+        <Valid>true</Valid><!--true or false-->
+        <MediaCodeCategory>category_19387776</MediaCodeCategory><!--指定编排的栏目,多个用逗号分开-->
+        <Sysid>t</Sysid><!--m表示移动 t表示电信 u表示联调, 多个用逗号分隔-->
+        <SecViewSecond>30</SecViewSecond><!--超过30s即可统计播放次数-->
+        <MinViewMinutes>8</MinViewMinutes><!--编排栏目下8分钟一个节点即可获得币数量-->
+        <MaxCoresPerDay>30</MaxCoresPerDay><!--每天最多得币30个-->
+        <Description>电竞投票</Description>
+    </Item>
+</Items>
