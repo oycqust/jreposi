@@ -1,0 +1,18 @@
+package com.utstar.config;
+
+import lombok.Data;
+
+import java.util.List;
+
+/**
+ *
+ * @author UTSC0928
+ * @date 2018/5/30
+ */
+@Data
+public class SelfConfigReader {
+
+    private String dataDir;
+
+    private Integer schedulePoolSize;
+}
