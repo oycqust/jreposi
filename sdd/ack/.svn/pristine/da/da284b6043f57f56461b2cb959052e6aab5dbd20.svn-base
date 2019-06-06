@@ -1,0 +1,74 @@
+# 数据读取目录
+data.dir=/opt/spark/sparkStreaming/data/viewlog
+
+# web properties
+server.context-path=/acp
+server.port=8098
+
+# task thread pool size
+schedule.pool.size=5
+# clear world(001) user second data CRON
+world.match.cron=0 15 0 * * *
+# clear summer user secibd data CRON
+summer.cron=0 15 0 * * *
+# clear voting user secibd data CRON
+voting.cron=0 15 0 * * *
+# sync tag mediacode  ten minutes per
+world.tag.sync.cron=0 0/10 * * * *
+
+#定时按规则同步mediacode到redis
+acti.mediacode.sync.cron=0 0/20 * * * *
+#同步影片观看次数
+acti.mediacode.view.cron=0 0 3 * * *
+
+
+# redis
+spring.redis.database=12
+spring.redis.sentinel.nodes=10.80.248.24:26379
+spring.redis.sentinel.master=mymaster
+spring.redis.password=rss123
+spring.redis.pool.max-active=100
+
+# database
+#bto_c2
+ud.botc2.datasource.driverClassName=oracle.jdbc.OracleDriver
+ud.botc2.datasource.url=jdbc:oracle:thin:@10.80.248.24:1521:orcl
+ud.botc2.datasource.username=bto_c2
+ud.botc2.datasource.password=oss
+
+#credb
+ud.credb.datasource.driverClassName=oracle.jdbc.OracleDriver
+ud.credb.datasource.url=jdbc:oracle:thin:@10.80.248.24:1521:orcl
+ud.credb.datasource.username=credb
+ud.credb.datasource.password=oss
+
+# 配置jsp文件的位置，默认位置为：src/main/webapp
+spring.mvc.view.prefix=/query/
+#指向jsp文件位置：src/main/webapp/pages
+
+# 配置jsp文件的后缀
+spring.mvc.view.suffix=.jsp
+
+#session有效时间
+server.session.timeout=1800
+
+#集群id
+clusterId=1
+
+#多台机器的主机标识(主机要与ftp服务器在一台机器上)
+cluster.master=true
+
+#线程池参数
+threadPool.corePoolSize=3
+threadPool.maximumPoolSize=20
+threadPool.keepAliveTime=3
+threadPool.workQueue.capacity=15
+
+#ftp url
+ftp.location=ftp://10.80.248.24:21
+
+#ftp 匿名用户默认目录
+log.basepath=/var/ftp/pub
+
+
+

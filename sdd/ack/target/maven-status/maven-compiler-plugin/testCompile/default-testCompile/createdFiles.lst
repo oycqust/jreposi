@@ -1,0 +1,8 @@
+DemoTest.class
+RedisTest.class
+core\ParentTest.class
+thread\ThreadTest$CountObj.class
+ThreadTest.class
+core\TestApplicationContextInitializer.class
+thread\ThreadTest.class
+repository\CredbRepoTest.class

@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cca0fa28-5ed4-4606-ab6a-c408a695c84e" name="Default Changelist" comment="积分系统提交">
+      <change beforePath="$PROJECT_DIR$/src/main/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/common/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/common/DateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/common/Dom4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/common/Dom4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/common/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/common/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/common/RedisKeyConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/common/RedisKeyConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/common/TomcatPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/common/TomcatPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/config/MVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/config/MVCConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/config/SelfConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/config/SelfConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/config/SpringContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/config/SpringContextUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/DataGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/DataGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/DetailBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/DetailBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/InputResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/InputResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ItemBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ItemBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ResultBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ResultBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/HeartBeatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/HeartBeatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/MatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/MatchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/QueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/QueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/data/source/impl/ViewLogInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/data/source/impl/ViewLogInputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/log/LoggerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/log/LoggerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisLockDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisLockDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/schedule/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/schedule/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CalculateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CalculateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/ActivityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/IntegralWorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/IntegralWorkerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utstar/listener/StartUpListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utstar/listener/StartUpListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/version.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/version.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/query/activity/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/query/activity/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/query/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/query/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestApplicationContextInitializer.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisCommonDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/StoreCacuResultThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="128" column="47" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/schedule/ScheduleJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="137" column="45" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/config/MVCConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/PointQueryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/data/source/impl/ViewLogInputFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="56" column="71" lean-forward="true" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-852">
+              <caret line="468" selection-start-line="468" selection-end-line="468" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>).moda</find>
+      <find>modal-content</find>
+      <find>location</find>
+      <find>ftpModal</find>
+      <find>addModal</find>
+      <find>&amp;times;&lt;/s</find>
+      <find>com.</find>
+      <find>validate</find>
+      <find>Excell</find>
+      <find>积分</find>
+      <find>handleTypeMediaCode</find>
+      <find>delMediacodeKey</find>
+      <find>acti.mediacode.sync.flag</find>
+      <find>fail to</find>
+      <find>getChargetypeSql</find>
+      <find>getMediaCodeByChargetype</find>
+      <find>基础标签</find>
+      <find>getMediaCodeByColumnCode</find>
+      <find>calculatePoint</find>
+      <find>spring.redis.password</find>
+      <find>store2RedisAndlog</find>
+      <find>storeUp2Redis</find>
+      <find>isV</find>
+      <find>handleActi</find>
+      <find>caculate-handle</find>
+      <find>error</find>
+      <find>etSeriesFlag()</find>
+      <find>getParentobjec</find>
+      <find>parentobject</find>
+      <find>storeLog2Redis</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\svn_idea\ack\target</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/QueryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/ThreadPoolManage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/VueTreeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/repository/credb/MediaCodeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/LogHandleThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/ItemRuleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/RedisCommonDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisCommonDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ActivityEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/PointQueryController.java" />
+        <option value="$PROJECT_DIR$/src/main/bin/start.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/repository/btoc2/ActivityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/utils/Encrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/aop/LoginAop.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestApplicationContextInitializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/thread/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/core/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/core/ParentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/repository/CredbRepoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CommonResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/config/user.json" />
+        <option value="$PROJECT_DIR$/src/main/version.cfg" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/query/activity/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/query/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/log/LoggerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisLockDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CaculateMvEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CalculateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CaculateQueueManage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CaculateEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/StoreMvThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/listener/StartUpListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/IntegralWorkerThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/data/source/impl/ViewLogInputFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/thread/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/ActivityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/schedule/ScheduleJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CommonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/config/MVCConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/config/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/StoreCacuResultThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/soft/develop/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="acp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="acp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utstar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utstar" type="462c0819:PsiDirectoryNode" />
+              <item name="integral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utstar" type="462c0819:PsiDirectoryNode" />
+              <item name="integral" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utstar" type="462c0819:PsiDirectoryNode" />
+              <item name="integral" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utstar" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/utstar/integral/utils" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="thread" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core" />
+      <recent name="" />
+      <recent name="com.utstar.integral.log" />
+      <recent name="com.utstar.integral.type" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\svn_idea\ack\src\main\java\com\utstar\integral\utils" />
+      <recent name="D:\svn_idea\ack\src\main\config" />
+      <recent name="D:\svn_idea\ack\src\main\webapp\js\vue" />
+      <recent name="D:\svn_idea\ack\src\main\webapp\css\vue" />
+      <recent name="D:\svn_idea\ack\src\main\webapp\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IntegralActivityApplicationDev">
+    <configuration name="Encrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utstar.integral.utils.Encrypt" />
+      <module name="acp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utstar.integral.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utstar.integral.bean.ExcelUtil" />
+      <module name="acp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utstar.integral.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegralActivityApplicationDev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utstar.IntegralActivityApplicationDev" />
+      <module name="acp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utstar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="acp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RedisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest.testPoolSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="acp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
+      <option name="METHOD_NAME" value="testPoolSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntegralActivityApplicationDev" />
+        <item itemvalue="Application.ExcelUtil" />
+        <item itemvalue="JUnit.ThreadTest.testPoolSize" />
+        <item itemvalue="JUnit.RedisTest.test01" />
+        <item itemvalue="Application.Encrypt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn_idea\ack" />
+          <option name="myCopyRoot" value="D:\svn_idea\ack" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn_idea\ack" />
+          <option name="myCopyRoot" value="D:\svn_idea\ack" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cca0fa28-5ed4-4606-ab6a-c408a695c84e" name="Default Changelist" comment="" />
+      <created>1557371924318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557371924318</updated>
+    </task>
+    <task id="LOCAL-00001" summary="新增登录功能">
+      <created>1557468494797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557468494797</updated>
+    </task>
+    <task id="LOCAL-00002" summary="积分系统提交">
+      <created>1559613217760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559613217760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RedisTest_test01 - 2019.06.04 at 10h 18m 30s.xml">
+      <configuration name="RedisTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_test01 - 2019.06.04 at 10h 33m 05s.xml">
+      <configuration name="RedisTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_test01 - 2019.06.04 at 10h 37m 34s.xml">
+      <configuration name="RedisTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 01m 19s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 02m 31s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 04m 56s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 07m 41s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 09m 45s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 11h 11m 55s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadTest_testPoolSize - 2019.06.04 at 16h 31m 52s.xml">
+      <configuration name="ThreadTest.testPoolSize" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47480106" visible="true" weight="0.21848138" />
+      <window_info id="Structure" order="1" sideWeight="0.52519894" side_tool="true" visible="true" weight="0.21848138" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.9363395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.632626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891247" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32891247" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49928367" weight="0.32891247" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32879657" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713466" visible="true" weight="0.16641791" />
+      <window_info id="Structure" order="1" sideWeight="0.5028653" side_tool="true" weight="0.28432837" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9369627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.63323784" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3295129" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295129" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32910448" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增登录功能" />
+    <MESSAGE value="积分系统提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="积分系统提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/StoreCacuResultThread.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java</url>
+          <line>503</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="duration" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/soft/develop/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/core/ParentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/ThreadPoolManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repository/CredbRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/common/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ResultBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/bin/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/query/activity/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="127" column="121" selection-start-line="127" selection-start-column="121" selection-end-line="127" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16355#16362#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/version.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/query/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="85" column="99" selection-start-line="85" selection-start-column="99" selection-end-line="85" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/ActivityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/repository/btoc2/CommonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/repository/credb/MediaCodeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="218" column="52" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/log/LoggerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/config/SelfConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/config/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisLockDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/develop/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="325" column="19" selection-start-line="325" selection-start-column="19" selection-end-line="325" selection-end-column="19" />
+          <folding>
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+            <element signature="e#11364#11365#0" expanded="true" />
+            <element signature="e#11395#11396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/develop/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/LogHandleThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/develop/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="397" column="13" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="13" />
+          <folding>
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CaculateQueueManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/CaculateEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CalculateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/listener/StartUpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/IntegralWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="76" column="69" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/thread/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/schedule/ScheduleJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="137" column="45" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/controller/PointQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/config/MVCConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/data/source/impl/ViewLogInputFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="56" column="71" lean-forward="true" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/bean/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/ItemRuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="95" column="61" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/redis/dao/imp/RedisCommonDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/thread/StoreCacuResultThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="128" column="47" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/integral/service/impl/CalculateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-852">
+          <caret line="468" selection-start-line="468" selection-end-line="468" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>acp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.oracle:ojdbc14:10.2.0.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
